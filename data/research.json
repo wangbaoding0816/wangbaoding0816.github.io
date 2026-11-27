@@ -157,10 +157,10 @@
         "粗糙增材制造点阵的幅值 C 扫描图、飞行时间深度图、B 扫描与 2.5-D 重建形貌。"
       ],
       "caption": [
-        "IEEE Transactions on Instrumentation and Measurement (2026), Fig. 13. Surface topography of a rough additively manufactured lattice.",
-        "IEEE Transactions on Instrumentation and Measurement（2026）图 13。粗糙增材制造点阵的表面形貌。"
+        "IEEE Transactions on Instrumentation and Measurement (2026), Fig. 13. Surface topography of a rough additively manufactured lattice. © 2026 IEEE.",
+        "IEEE Transactions on Instrumentation and Measurement（2026）图 13。粗糙增材制造点阵的表面形貌。 © 2026 IEEE."
       ],
-      "public": false
+      "public": true
     },
     "tim-apparatus": {
       "path": "assets/images/additive-manufacturing/tim-apparatus.png",
