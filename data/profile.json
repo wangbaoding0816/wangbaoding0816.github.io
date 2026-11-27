@@ -35,7 +35,11 @@
   ],
   "cv": {
     "file": "Baoding_Wang_Academic_CV.pdf",
-    "updated": "2026-11-27"
+    "updated": "2026-11-27",
+    "file_zh": "Baoding_Wang_Academic_CV_ZH.pdf",
+    "download_en": "Wuhan University_Baoding_Wang_Academic_CV.pdf",
+    "download_zh": "武汉大学_王宝定_简历.pdf",
+    "generate": false
   },
   "csc": {
     "enabled": true,

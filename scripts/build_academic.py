@@ -24,7 +24,6 @@ from site_data import (
     SITE,
     academic_links,
     bi,
-    dates,
     download_cv,
     external,
     figure,
@@ -141,8 +140,14 @@ def hero():
     metrics = "".join(
         f'<li>{link(url, f"<strong>{number}</strong>{bi(label)}")}</li>' for number, label, url in stats
     )
+    english_cv = download_cv("en")
+    chinese_cv = download_cv("zh")
+    cv_actions = (
+        f'<span class="en">{english_cv or chinese_cv}</span>'
+        f'<span class="zh" lang="zh-CN">{chinese_cv or english_cv}</span>'
+    )
     buttons = [
-        download_cv(), local("#experimental-systems", ("Experimental Systems", "实验系统"), "button"),
+        cv_actions, local("#experimental-systems", ("Experimental Systems", "实验系统"), "button"),
         local("research.html", ("Explore My Research →", "浏览科研档案 →"), "button"),
     ]
     profile_links = academic_links() + [local("#contact", ("Contact Me", "与我联系"))]
@@ -237,9 +242,11 @@ def honours_section():
 
 
 def cv_section():
-    return section("cv", ("Academic CV", "学术简历"),
-        f'<div class="cv-panel"><div>{paragraph(("Public academic CV · English PDF", "公开版学术简历 · 英文 PDF"))}'
-        f'<p class="muted">{bi(("Updated", "更新于"))} {dates(PROFILE["cv"]["updated"])}</p></div>{download_cv()}</div>')
+    downloads = [button for locale in ("en", "zh") if (button := download_cv(locale))]
+    content = links(downloads, "cv-panel") if downloads else paragraph(
+        ("Academic CV download pending.", "学术简历下载文件待补充。"), "muted"
+    )
+    return section("cv", ("Academic CV", "学术简历"), content)
 
 
 def contact_section():

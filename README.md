@@ -4,7 +4,7 @@
 
 ## 本地预览
 
-网页在 GitHub Pages 上以静态文件运行。只有在更新数据或重新生成公开英文 CV 时才需要 Python。
+网页在 GitHub Pages 上以静态文件运行。更新数据和重新构建时需要 Python。
 
 ```powershell
 python -m pip install -r requirements.txt
@@ -39,10 +39,10 @@ python -m http.server 8765 --bind 127.0.0.1
 
 实验或研究条目支持可选 `videos` 列表。每项填写 `"public": true`、`path`、双语 `caption`，可加 `poster`，以及带有 `path`、`lang` 和 `label` 的 `captions`。视频和 WebVTT 字幕可放在 `assets/videos/`。
 
-### 更新英文 CV
+### 更新中英文 CV
 
-默认由 `scripts/public_cv.py` 从公开数据生成 `Baoding_Wang_Academic_CV.pdf`，并更新旧下载路径 `Baoding_Wang_CV.pdf`。若已有可公开的新版英文 PDF，把它放在根目录，设置 `cv.file`、`cv.updated` 和 `"generate": false` 后重新构建。清空 `cv.file` 时，页面显示待补充文字。仓库根目录的文件随 GitHub Pages 静态站一起提供，因此应将内部简历和未公开材料留在仓库之外。
+网站直接提供作者上传的原版 PDF。替换根目录的 `Baoding_Wang_Academic_CV.pdf`（英文）和 `Baoding_Wang_Academic_CV_ZH.pdf`（中文）后重新构建。`data/profile.json` 的 `cv.file`、`cv.file_zh` 配置网站地址，`cv.download_en`、`cv.download_zh` 配置下载文件名。`cv.generate` 保持为 `false` 时，构建会保留原版文件，并将英文 PDF 同步到旧下载路径 `Baoding_Wang_CV.pdf`。
 
 ## GitHub Pages 发布
 
-当前站点使用 GitHub Pages 的 **Settings → Pages → Deploy from a branch**，发布分支为 `main`，目录为 `/ (root)`。`.nojekyll` 让 Pages 直接使用静态输出。发布前本地运行构建和验证。获准发布后，将审核过的分支合入配置的发布分支并推送，再检查首页、研究直达地址及两个 CV 下载路径。原页面的 `#about`、`#research`、`#publications` 和 `#paper-…` 等锚点仍可使用。
+当前站点使用 GitHub Pages 的 **Settings → Pages → Deploy from a branch**，发布分支为 `main`，目录为 `/ (root)`。`.nojekyll` 让 Pages 直接使用静态输出。发布前本地运行构建和验证。获准发布后，将审核过的分支合入配置的发布分支并推送，再检查首页、研究直达地址及中英文 CV 下载路径。原页面的 `#about`、`#research`、`#publications` 和 `#paper-…` 等锚点仍可使用。

@@ -7,6 +7,7 @@ from xml.etree import ElementTree
 from PIL import Image
 from site_data import (
     CV,
+    CV_ZH,
     PAPERS,
     PREVIEW,
     PROFILE,
@@ -103,6 +104,9 @@ def validate():
     for filename in images | {PREVIEW}:
         with Image.open(ROOT / filename) as image:
             image.verify()
+    for cv_file in filter(None, (CV, CV_ZH)):
+        assert cv_file in home.targets
+        assert (ROOT / cv_file).read_bytes().startswith(b"%PDF-")
     if CV:
         pdf = (ROOT / CV).read_bytes()
         assert pdf.startswith(b"%PDF-") and pdf == (ROOT / "Baoding_Wang_CV.pdf").read_bytes()

@@ -1,6 +1,5 @@
 """Shared site content and helpers for the static renderers."""
 import json
-from datetime import date
 from html import escape as h
 from pathlib import Path
 
@@ -33,6 +32,7 @@ SITE = PROFILE["site"]
 PORTRAIT = "assets/images/profile/baoding-wang.jpg"
 PREVIEW = "assets/images/profile/social-preview.jpg"
 CV = PROFILE["cv"]["file"]
+CV_ZH = PROFILE["cv"].get("file_zh")
 
 STATUS = {
     "published": ("Published", "已发表"),
@@ -158,13 +158,10 @@ def academic_links():
     return items
 
 
-def dates(value):
-    day = date.fromisoformat(value)
-    label = day.strftime("%B ") + str(day.day) + f", {day.year}"
-    return f'<time datetime="{value}">{bi((label, f"{day.year} 年 {day.month} 月 {day.day} 日"))}</time>'
-
-
-def download_cv(cls="button primary"):
-    if not CV:
-        return paragraph(("Academic CV download pending.", "学术简历下载文件待补充。"), "muted")
-    return link(CV, bi(("Download Academic CV ↓", "下载学术简历 ↓")), cls, f' download="{h(CV)}"')
+def download_cv(locale, cls="button primary"):
+    filename = CV_ZH if locale == "zh" else CV
+    if not filename:
+        return ""
+    download_name = PROFILE["cv"].get(f"download_{locale}", filename)
+    label = ("Chinese CV (PDF) ↓", "下载中文简历 ↓") if locale == "zh" else ("English CV (PDF) ↓", "下载英文简历 ↓")
+    return link(filename, bi(label), cls, f' download="{h(download_name, quote=True)}"')
