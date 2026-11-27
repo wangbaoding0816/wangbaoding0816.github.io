@@ -1,0 +1,293 @@
+[
+  {
+    "id": "tim-topography",
+    "year": 2026,
+    "status": "published",
+    "title": "Bias-Compensated Air-Coupled Laser-Ultrasonic Framework for Noncontact 2.5-D Topography Measurement of Rough Additively Manufactured Surfaces",
+    "authors": [
+      "Baoding Wang",
+      "Liequan Wu",
+      "Tongxin Wang",
+      "Fang Dong",
+      "Bin Yang",
+      "Jun Zhang"
+    ],
+    "journal": "IEEE Transactions on Instrumentation and Measurement",
+    "volume": "75",
+    "article_number": "9705113",
+    "doi": "10.1109/TIM.2026.3744057",
+    "role": "first",
+    "published_en": "Published 16 October 2026",
+    "published_zh": "2026 年 10 月 16 日发表",
+    "summary_en": "The framework compensates for geometric bias in air-coupled ultrasonic time-of-flight measurements. Echo amplitude helps delineate features, and calibrated time-of-flight residuals estimate local height or depth from one side of the part.",
+    "summary_zh": "该框架补偿空耦超声飞行时间测量中的几何偏差，利用回波幅值辅助识别特征边界，再通过标定后的飞行时间残差估计局部高度或深度，实现单侧非接触测量。",
+    "contribution_en": "First author.",
+    "contribution_zh": "第一作者。",
+    "title_zh": "基于偏差补偿空耦激光超声框架的增材制造粗糙表面非接触 2.5-D 形貌测量",
+    "themes": [
+      "measurement",
+      "manufacturing"
+    ],
+    "corresponding_authors": null,
+    "figure": "topography"
+  },
+  {
+    "id": "broadband-interface",
+    "year": 2026,
+    "status": "published",
+    "title": "Physics-informed broadband measurement of compliant interfacial defects under severe solid–air impedance mismatch using air-coupled laser ultrasonics",
+    "authors": [
+      "Baoding Wang",
+      "Lvming Zeng",
+      "Xuanrong Ji",
+      "Jun Zhang"
+    ],
+    "journal": "Measurement",
+    "volume": "290",
+    "doi": "10.1016/j.measurement.2026.122975",
+    "role": "first",
+    "summary_en": "An interpretable broadband measurement framework links interfacial compliance, surface vibration and air-side acoustic response. BRI and DRDS distinguish broadband radiative enhancement from resonance-dominated responses; validation includes planar, ultra-thin and curved laminates under the tested conditions.",
+    "summary_zh": "建立界面柔顺性、表面振动与空气侧声响应之间的宽带测量框架。通过 BRI 和 DRDS 区分宽带辐射增强与共振主导响应，并在所测试的平面、超薄和曲面层合结构上开展验证。",
+    "contribution_en": "Conceptualisation, methodology, investigation, software, validation, formal analysis, data curation, visualisation and original-draft writing.",
+    "contribution_zh": "研究构思、方法设计、研究实施、软件、验证、分析、数据整理、可视化与初稿撰写。",
+    "title_zh": "严重固–气声阻抗失配条件下基于空耦激光超声的柔性界面缺陷物理信息宽带测量",
+    "themes": [
+      "measurement",
+      "imaging"
+    ],
+    "corresponding_authors": [
+      "Jun Zhang"
+    ],
+    "figure": "air-coupled",
+    "article_number": "122975"
+  },
+  {
+    "id": "laser-cleaning",
+    "year": 2026,
+    "status": "published",
+    "title": "Process-integrated self-sensing pulsed laser cleaning with ultrasonic monitoring for Surface-Integrity indication and abnormality mapping",
+    "authors": [
+      "Baoding Wang",
+      "Tongxin Wang",
+      "Huakai Mao",
+      "Guodong Zhang",
+      "Jun Zhang"
+    ],
+    "equal_authors": [
+      "Baoding Wang",
+      "Tongxin Wang"
+    ],
+    "journal": "Optics & Laser Technology",
+    "volume": "204",
+    "doi": "10.1016/j.optlastec.2026.116126",
+    "role": "cofirst",
+    "summary_en": "Hardware-synchronized laser cleaning and non-contact acoustic acquisition produce spatially registered process measurements. Acoustic descriptors, XGBoost–SHAP analysis and baseline-referenced mapping support surface-integrity indication and abnormality detection within the tested Q235-steel conditions.",
+    "summary_zh": "通过激光清洗与非接触声采集的硬件同步，获得空间配准的过程测量数据；结合声学特征、XGBoost–SHAP 分析和基线参照映射，在所测试的 Q235 钢工况内开展表面完整性表征与异常识别。",
+    "contribution_en": "Conceptualisation, methodology, investigation, software, data curation and original-draft writing; equal contribution with Tongxin Wang.",
+    "contribution_zh": "研究构思、方法设计、研究实施、软件、数据整理与初稿撰写；与 Tongxin Wang 共同贡献。",
+    "title_zh": "面向表面完整性指示与异常映射的脉冲激光清洗过程集成自感知超声监测",
+    "themes": [
+      "manufacturing"
+    ],
+    "corresponding_authors": [
+      "Guodong Zhang",
+      "Jun Zhang"
+    ],
+    "figure": "cleaning",
+    "article_number": "116126"
+  },
+  {
+    "id": "sparse-pinn",
+    "year": 2026,
+    "status": "published",
+    "title": "Sparse wavefield reconstruction and defect indication in low-SNR laser ultrasonics using physics-informed neural networks",
+    "authors": [
+      "Baoding Wang",
+      "Jiuzhang Li",
+      "Haodong Chen",
+      "Liequan Wu",
+      "Pan Ma",
+      "Bin Yang",
+      "Jun Zhang"
+    ],
+    "equal_authors": [
+      "Baoding Wang",
+      "Jiuzhang Li"
+    ],
+    "journal": "Ultrasonics",
+    "volume": "168",
+    "doi": "10.1016/j.ultras.2026.108194",
+    "role": "cofirst",
+    "code": "https://github.com/wangbaoding0816/Laser_Ultrasound_Reconstruction_PINN",
+    "summary_en": "A Kirchhoff–Love plate-constrained PINN reconstructs A0-dominated wavefields from sparse, low-SNR measurements. Aluminium-plate experiments use 20–30% spatial samples and three signal averages, compared with 300-average reference scans. PDE residuals provide a scattering-sensitive defect indicator rather than a direct defect-geometry reconstruction.",
+    "summary_zh": "利用 Kirchhoff–Love 薄板方程约束 PINN，在低信噪比、稀疏采样条件下重建 A0 主导波场。铝板实验使用 20–30% 空间采样和 3 次平均，与 300 次平均参考扫描比较；PDE 残差用于散射敏感的缺陷指示，而非直接重建缺陷几何形状。",
+    "contribution_en": "Conceptualisation, software, validation, formal analysis, data curation, visualisation and original-draft writing; equal contribution with Jiuzhang Li.",
+    "contribution_zh": "研究构思、软件、验证、分析、数据整理、可视化与初稿撰写；与 Jiuzhang Li 共同贡献。",
+    "title_zh": "基于物理信息神经网络的低信噪比激光超声稀疏波场重建与缺陷指示",
+    "themes": [
+      "imaging"
+    ],
+    "corresponding_authors": [
+      "Jun Zhang"
+    ],
+    "figure": "pinn",
+    "article_number": "108194",
+    "data": "https://github.com/wangbaoding0816/Laser_Ultrasound_Reconstruction_PINN/tree/main/data"
+  },
+  {
+    "id": "woven-separation",
+    "year": 2026,
+    "status": "published",
+    "title": "Decoupling propagation and texture-induced artifacts to improve time-of-flight reliability in scanning laser-ultrasonic measurements of woven CFRP",
+    "authors": [
+      "Baoding Wang",
+      "Haodong Chen",
+      "Liequan Wu",
+      "Jiuzhang Li",
+      "Pan Ma",
+      "Bin Yang",
+      "Jun Zhang"
+    ],
+    "journal": "Measurement",
+    "volume": "279",
+    "doi": "10.1016/j.measurement.2026.121669",
+    "role": "first",
+    "code": "https://github.com/wangbaoding0816/Woven_CFRP_Wavefield_Separation",
+    "data": "https://zenodo.org/records/18168499",
+    "summary_en": "A measurement-derived structural prior separates propagating waves from weave-locked texture artefacts in a single-ply twill CFRP specimen. Under identical tracking settings, mean ridge linearity reaches 0.987 and mean tracking RMSE decreases to 0.194 mm, stabilising directional velocity estimates.",
+    "summary_zh": "针对单层斜纹 CFRP，以测量数据提取的结构先验分离传播波场和编织纹理伪影。在相同跟踪设置下，平均脊线线性度达到 0.987，平均跟踪 RMSE 降至 0.194 mm，从而稳定方向波速估计。",
+    "contribution_en": "Conceptualisation, methodology, software, data curation, funding acquisition and original-draft writing.",
+    "contribution_zh": "研究构思、方法设计、软件、数据整理、经费获取与初稿撰写。",
+    "title_zh": "传播与织构诱导伪影解耦以提高编织 CFRP 扫描激光超声测量的到时可靠性",
+    "themes": [
+      "measurement",
+      "imaging"
+    ],
+    "corresponding_authors": [
+      "Jun Zhang"
+    ],
+    "figure": "woven",
+    "article_number": "121669"
+  },
+  {
+    "id": "metal-cfrp",
+    "year": 2025,
+    "online_year": 2024,
+    "status": "published",
+    "title": "Non-contact detection of the interfacial microdefects in metal/CFRP hybrid composites using air-coupled laser ultrasound",
+    "authors": [
+      "Baoding Wang",
+      "Zhongwen Cheng",
+      "Weisheng Liao",
+      "Bainian Long",
+      "Junwei Wu",
+      "Lvming Zeng",
+      "Xuanrong Ji"
+    ],
+    "equal_authors": [
+      "Baoding Wang",
+      "Zhongwen Cheng"
+    ],
+    "journal": "Structural Health Monitoring",
+    "volume": "24",
+    "issue": "1",
+    "pages": "243–254",
+    "doi": "10.1177/14759217241234557",
+    "role": "cofirst",
+    "summary_en": "Air-coupled laser ultrasound detects interfacial microdefects in metal/CFRP hybrid composites. Comparison with phased-array ultrasound and X-ray inspection examines bonding failure, cohesive failure and delamination, including curved configurations.",
+    "summary_zh": "利用空耦激光超声检测金属/CFRP 混合复合材料的界面微缺陷，并与相控阵超声、X 射线检测比较，研究粘接失效、内聚失效和分层，也考察曲面构件。",
+    "contribution_en": "Co-first author. Research on non-contact air-coupled laser-ultrasonic inspection of metal/CFRP interfaces.",
+    "contribution_zh": "共同第一作者，研究金属/CFRP 界面的非接触空耦激光超声检测。",
+    "title_zh": "基于空耦激光超声的金属/CFRP 混合复合材料界面微缺陷非接触检测",
+    "themes": [
+      "measurement"
+    ],
+    "corresponding_authors": [
+      "Lvming Zeng",
+      "Xuanrong Ji"
+    ],
+    "figure": null
+  },
+  {
+    "id": "gfrp",
+    "year": 2022,
+    "status": "published",
+    "title": "玻璃钢缺陷的空耦激光超声检测",
+    "translated_title": "Air-coupled laser ultrasonic testing of glass fiber reinforced polymer defect",
+    "authors": [
+      "王宝定",
+      "吴俊伟",
+      "廖为圣",
+      "程中文",
+      "邓宇",
+      "张永康",
+      "曾吕明",
+      "纪轩荣"
+    ],
+    "journal": "无损检测 / Nondestructive Testing",
+    "volume": "44",
+    "issue": "6",
+    "pages": "26–31",
+    "doi": "10.11973/wsjc202206006",
+    "role": "first",
+    "in_chinese": true,
+    "summary_en": "A hybrid air-coupled laser-ultrasonic system using a 450 kHz receiver examines internal GFRP defects. Contact phased-array measurements provide a comparison for defect shape, size and position.",
+    "summary_zh": "采用 450 kHz 空耦探头的混合激光超声系统检测玻璃钢内部缺陷，并通过接触式相控阵对比试验考察缺陷形状、尺寸与位置。",
+    "contribution_en": "First author; presented related GFRP laser-ultrasonic NDT work at the 2021 Far East NDT forum.",
+    "contribution_zh": "第一作者；在 2021 年远东无损检测论坛就相关玻璃纤维复合材料激光超声检测工作作报告。",
+    "title_zh": "玻璃钢缺陷的空耦激光超声检测",
+    "themes": [
+      "measurement"
+    ],
+    "corresponding_authors": [
+      "曾吕明"
+    ],
+    "figure": null,
+    "authors_latin": [
+      "B. Wang",
+      "J. Wu",
+      "W. Liao",
+      "Z. Cheng",
+      "Y. Deng",
+      "Y. Zhang",
+      "L. Zeng",
+      "X. Ji"
+    ],
+    "journal_en": "Nondestructive Testing"
+  },
+  {
+    "id": "braided-cfrp",
+    "year": 2021,
+    "status": "published",
+    "title": "High-resolution air-coupled laser ultrasound imaging of microstructure and defects in braided CFRP",
+    "authors": [
+      "Lvming Zeng",
+      "Baoding Wang",
+      "Xu Liu",
+      "Junwei Wu",
+      "Lijun Deng",
+      "Maodan Yuan",
+      "Yan Chen",
+      "Yu Deng",
+      "Yongkang Zhang",
+      "Xuanrong Ji"
+    ],
+    "journal": "Composites Communications",
+    "volume": "28",
+    "doi": "10.1016/j.coco.2021.100915",
+    "role": "second",
+    "summary_en": "A non-contact air-coupled laser-ultrasonic system images braided-CFRP microstructure and defects. Finite-element modelling and phased-array comparisons support characterisation of resin pockets, fibre bundles and subsurface defects.",
+    "summary_zh": "非接触空耦激光超声系统对编织 CFRP 微观结构与缺陷成像，结合有限元建模与相控阵对比，表征树脂富集区、纤维束和内部缺陷。",
+    "contribution_en": "Data curation, formal analysis, and writing – review & editing, as stated in the article's CRediT statement.",
+    "contribution_zh": "依据论文 CRediT 声明，承担数据整理、分析及论文审阅与修改。",
+    "title_zh": "编织 CFRP 微观结构及缺陷的高分辨率空耦激光超声成像",
+    "themes": [
+      "measurement"
+    ],
+    "corresponding_authors": [
+      "Xuanrong Ji"
+    ],
+    "figure": null,
+    "article_number": "100915"
+  }
+]

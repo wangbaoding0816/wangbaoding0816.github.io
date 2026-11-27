@@ -1,0 +1,94 @@
+{
+  "expertise": [
+    [
+      [
+        "Experimental System Development",
+        "实验系统自主研发"
+      ],
+      [
+        "Design, instrument selection, optomechanical integration, assembly, commissioning and validation of laser-ultrasonic, Laser–EMAT and air-coupled systems.",
+        "开展激光超声、Laser–EMAT 和空耦超声系统的方案设计、仪器选型、光机电集成、搭建、调试与实验验证。"
+      ]
+    ],
+    [
+      [
+        "Instrumentation & Automation",
+        "仪器测控与自动化"
+      ],
+      [
+        "Advanced LabVIEW, instrument communication, high-speed time-domain acquisition, hardware triggering, timing control, galvanometer scanning and precision motion.",
+        "高级 LabVIEW 开发、仪器通信、高速时域采集、硬件触发、时序控制、振镜扫描与精密运动控制。"
+      ]
+    ],
+    [
+      [
+        "Scientific Software Engineering",
+        "科研软件工程"
+      ],
+      [
+        "C++, Python, MATLAB, Java and Spring Boot for instrument control, numerical methods, back-end development and engineering integration.",
+        "使用 C++、Python、MATLAB、Java 与 Spring Boot 开发仪器控制、数值算法、后端软件及工程集成。"
+      ]
+    ],
+    [
+      [
+        "Wave Physics & Multiphysics Modelling",
+        "波动物理与多物理场建模"
+      ],
+      [
+        "COMSOL Multiphysics and k-Wave for finite-element modelling, laser-induced ultrasonic generation, elastic wave propagation and wave–material interaction.",
+        "使用 COMSOL Multiphysics 与 k-Wave 开展有限元建模、激光激发超声、弹性波传播及波与材料相互作用研究。"
+      ]
+    ],
+    [
+      [
+        "Computational & Intelligent Imaging",
+        "计算成像与智能算法"
+      ],
+      [
+        "SAFT, TFM, delay-and-sum beamforming, coherence weighting, time–frequency analysis, PINNs, Bayesian learning and uncertainty quantification.",
+        "SAFT、TFM、延时叠加波束形成、相干加权、时频分析、物理信息神经网络、贝叶斯学习及不确定性量化。"
+      ]
+    ],
+    [
+      [
+        "AI-Assisted Research Development",
+        "AI 辅助科研开发"
+      ],
+      [
+        "I design and validate research software, using Claude Code, OpenAI Codex and AI-assisted workflows, including Vibe Coding, to accelerate prototyping, code review, debugging and testing.",
+        "独立设计并验证科研软件，使用 Claude Code、OpenAI Codex 和包括 Vibe Coding 在内的 AI 辅助工作流加快原型开发、代码审查、调试和测试。"
+      ]
+    ]
+  ],
+  "workflow": [
+    [
+      "Scientific Problem",
+      "科学问题"
+    ],
+    [
+      "Experimental System Design",
+      "实验系统设计"
+    ],
+    [
+      "Instrumentation & Automation",
+      "仪器测控与自动化"
+    ],
+    [
+      "Wave Physics & Modelling",
+      "波动物理与建模"
+    ],
+    [
+      "Computational Imaging",
+      "计算成像"
+    ],
+    [
+      "Experimental Validation",
+      "实验验证"
+    ],
+    [
+      "Research Outcomes",
+      "科研成果"
+    ]
+  ]
+}

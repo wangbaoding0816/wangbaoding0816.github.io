@@ -1,0 +1,261 @@
+{
+  "site": "https://wangbaoding0816.github.io/",
+  "name": "Baoding Wang",
+  "chinese_name": "王宝定",
+  "emails": [
+    "wangbaoding0522@gmail.com",
+    "wangbaoding2020@163.com"
+  ],
+  "github": "https://github.com/wangbaoding0816",
+  "orcid": "https://orcid.org/0009-0000-5027-6273",
+  "university": [
+    "Wuhan University",
+    "武汉大学"
+  ],
+  "school": [
+    "School of Power and Mechanical Engineering",
+    "动力与机械学院"
+  ],
+  "role": [
+    "PhD Student in Mechanical Engineering",
+    "机械工程博士研究生"
+  ],
+  "supervisor": [
+    "Prof. Jun Zhang",
+    "张俊教授"
+  ],
+  "supervisor_url": "https://pmc.whu.edu.cn/info/1017/156421.htm",
+  "phd_start": [
+    "September 2025",
+    "2025 年 9 月"
+  ],
+  "graduation": [
+    "June 2029",
+    "2029 年 6 月"
+  ],
+  "cv": {
+    "file": "Baoding_Wang_Academic_CV.pdf",
+    "updated": "2026-11-27"
+  },
+  "csc": {
+    "enabled": true,
+    "start": [
+      "June 2027",
+      "2027 年 6 月"
+    ],
+    "months": 12
+  },
+  "interests": [
+    "Laser ultrasonics",
+    "Laser–EMAT",
+    "Electromagnetic acoustic transducers",
+    "Non-contact nondestructive evaluation",
+    "Ultrasonic experimental systems",
+    "Ultrasonic imaging",
+    "Physics-informed neural networks",
+    "Additive manufacturing inspection"
+  ],
+  "hero": {
+    "title": [
+      "Advanced Ultrasonics, Non-contact NDE & Intelligent Imaging",
+      "先进超声、非接触无损评价与智能成像"
+    ],
+    "subtitle": [
+      "Experimental Systems · Wave Physics · Computational Imaging · AI-Assisted Research",
+      "实验系统 · 波动物理 · 计算成像 · AI 辅助科研"
+    ],
+    "paragraphs": [
+      [
+        "I develop Laser–EMAT and air-coupled ultrasonic systems for non-contact inspection of metals, composites and additively manufactured parts.",
+        "我研发激光–电磁超声和空耦超声系统，对金属、复合材料及增材制造构件开展非接触检测。"
+      ],
+      [
+        "I build LabVIEW acquisition tools and use C++ and Python to turn ultrasonic measurements, wave physics and multiphysics models into computational imaging methods.",
+        "我开发 LabVIEW 测控工具，使用 C++ 和 Python 将超声测量、波动物理与多物理场模型转化为计算成像方法。"
+      ],
+      [
+        "My industry experience in mechanical design and software engineering informs how I design instruments, automate experiments and validate imaging methods.",
+        "机械设计与软件工程的工业经历为仪器设计、实验自动化与成像方法验证提供了工程基础。"
+      ]
+    ]
+  },
+  "experience": [
+    {
+      "id": "wuhan",
+      "name": [
+        "Wuhan University",
+        "武汉大学"
+      ],
+      "role": [
+        "PhD student · Mechanical Engineering",
+        "博士研究生 · 机械工程"
+      ],
+      "dates": [
+        "September 2025 – Present",
+        "2025.09 – 至今"
+      ],
+      "body": [
+        "Laser–EMAT imaging and online inspection of small internal defects in metallic components.",
+        "金属构件内部微小缺陷的激光–电磁超声成像与在线检测。"
+      ],
+      "supervisor": [
+        "Prof. Jun Zhang",
+        "张俊教授"
+      ],
+      "url": "https://pmc.whu.edu.cn/info/1017/156421.htm"
+    },
+    {
+      "id": "midea",
+      "name": [
+        "Midea Group",
+        "美的集团"
+      ],
+      "role": [
+        "Software Engineer",
+        "软件开发工程师"
+      ],
+      "dates": [
+        "June 2022 – September 2025",
+        "2022.06 – 2025.09"
+      ],
+      "body": [
+        "Backend development with Java and Spring Boot, software design, debugging and engineering system integration.",
+        "使用 Java 与 Spring Boot 开展后端开发，参与软件设计、调试和工程系统集成。"
+      ]
+    },
+    {
+      "id": "gdut",
+      "name": [
+        "Guangdong University of Technology",
+        "广东工业大学"
+      ],
+      "role": [
+        "MEng · Mechanical Engineering",
+        "硕士 · 机械工程"
+      ],
+      "dates": [
+        "September 2019 – June 2022",
+        "2019.09 – 2022.06"
+      ],
+      "body": [
+        "School of Electromechanical Engineering, State Key Laboratory of Precision Electronic Manufacturing Technology and Equipment. Thesis on air-coupled laser-ultrasonic inspection of microdefects in layered composites.",
+        "机电工程学院、精密电子制造技术与装备国家重点实验室。硕士论文研究叠层复合材料微缺陷的空耦激光超声检测。"
+      ],
+      "supervisor": [
+        "Prof. Xuanrong Ji",
+        "纪轩荣教授"
+      ],
+      "url": "https://yzw.gdut.edu.cn/info/1055/1502.htm"
+    },
+    {
+      "id": "hans",
+      "name": [
+        "Han’s Laser",
+        "大族激光"
+      ],
+      "role": [
+        "Mechanical Designer",
+        "机械设计师"
+      ],
+      "dates": [
+        "June 2018 – September 2019",
+        "2018.06 – 2019.09"
+      ],
+      "body": [
+        "Mechanical design for laser equipment, component selection and prototype assembly.",
+        "激光设备机械设计、零部件选型及原型装配。"
+      ]
+    },
+    {
+      "id": "beng",
+      "name": [
+        "Engineering and Technology College of Hubei University of Technology",
+        "湖北工业大学工程技术学院"
+      ],
+      "role": [
+        "BEng · Mechatronic Engineering",
+        "学士 · 机械电子工程"
+      ],
+      "dates": [
+        "September 2014 – June 2018",
+        "2014.09 – 2018.06"
+      ],
+      "body": [
+        "Undergraduate study in mechanical and electronic engineering.",
+        "本科阶段学习机械与电子工程。"
+      ]
+    }
+  ],
+  "patents": [
+    {
+      "id": "CN111999388B",
+      "application": "202010897292.9",
+      "granted": "2022-06-24",
+      "title": [
+        "Laser ultrasonic inspection system and method for woven carbon fibre composites",
+        "一种碳纤维编织复合材料的激光超声检测系统及方法"
+      ],
+      "role": [
+        "Second inventor",
+        "第二发明人"
+      ]
+    },
+    {
+      "id": "CN111999387B",
+      "application": "202010896006.7",
+      "granted": "2022-06-24",
+      "title": [
+        "Automated laser ultrasonic inspection system and method for carbon fibre composite blades",
+        "碳纤维复合材料叶片的激光超声自动化检测系统及方法"
+      ],
+      "role": [
+        "Fourth inventor",
+        "第四发明人"
+      ]
+    }
+  ],
+  "grants": [
+    [
+      "National Key R&D Program of China · 2023YFC3010300",
+      "国家重点研发计划 · 2023YFC3010300"
+    ],
+    [
+      "National Key R&D Program of China · 2018YFB1107703",
+      "国家重点研发计划 · 2018YFB1107703"
+    ],
+    [
+      "NSFC Civil Aviation Joint Research Fund · U2133213",
+      "国家自然科学基金民航联合研究基金 · U2133213"
+    ],
+    [
+      "Guangdong Pearl River Talent Program · 2016ZT06G375",
+      "广东省珠江人才计划 · 2016ZT06G375"
+    ]
+  ],
+  "honours": [
+    [
+      "Outstanding Postgraduate Student, Wuhan University (2026)",
+      "武汉大学优秀研究生（2026）"
+    ],
+    [
+      "Outstanding Master’s Graduate, Guangdong University of Technology (2022)",
+      "广东工业大学优秀毕业研究生（2022）"
+    ],
+    [
+      "First-Class Academic Scholarship, Guangdong University of Technology (2019, 2021)",
+      "广东工业大学学业一等奖学金（2019、2021）"
+    ],
+    [
+      "Second-Class Academic Scholarship, Guangdong University of Technology (2020)",
+      "广东工业大学学业二等奖学金（2020）"
+    ]
+  ],
+  "presentation": [
+    "Research presentation on laser-ultrasonic NDT of glass-fibre composites, Far East NDT Forum, Kunming (2021).",
+    "昆明远东无损检测新技术论坛学术报告（2021），主题为玻璃纤维复合材料的激光超声无损检测。"
+  ],
+  "languages": [
+    "Chinese (native) · English (CET-6)",
+    "中文（母语）· 英语（大学英语六级 CET-6）"
+  ]
+}

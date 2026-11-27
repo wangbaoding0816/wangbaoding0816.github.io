@@ -1,0 +1,232 @@
+[
+  {
+    "id": "laser-emat",
+    "name": [
+      "Laser–EMAT Inspection System",
+      "激光–电磁超声检测系统"
+    ],
+    "status": "independent",
+    "overview": [
+      "Single-sided, non-contact inspection of thick metallic components with laser excitation and EMAT reception.",
+      "结合脉冲激光激励与 EMAT 接收，对厚壁金属构件进行单侧非接触检测。"
+    ],
+    "hardware": [
+      "Pulsed laser, electromagnetic acoustic receiver, specimen fixture, precision translation stage and high-speed digitiser.",
+      "脉冲激光器、电磁超声接收器、试样夹具、精密位移平台及高速采集设备。"
+    ],
+    "contribution": [
+      "Designed and integrated the platform, commissioned its acquisition workflow and modelled the offset source–receiver geometry.",
+      "设计与集成平台，调试采集流程并建立偏置收发几何模型。"
+    ],
+    "control": [
+      "Coordinates pulsed excitation and time-domain capture for dense stepped scans, coarse single-pulse scans and preliminary continuous-motion experiments.",
+      "协调脉冲激励与时域采集，用于密集步进、粗步距单脉冲及初步连续运动实验。"
+    ],
+    "capabilities": [
+      "Finite-aperture-aware imaging of deep defects; separation and analysis of mode-converted arrivals.",
+      "深层缺陷有限孔径成像、模式转换到达信号的分离与分析。"
+    ],
+    "results": [
+      "Research summaries cover deep-defect imaging, mode conversion and continuous-motion acquisition.",
+      "相关研究涵盖深层缺陷成像、模式转换与连续运动采集。"
+    ],
+    "papers": [],
+    "projects": [
+      "deep-laser-emat",
+      "mode-conversion",
+      "continuous-motion"
+    ],
+    "figures": []
+  },
+  {
+    "id": "air-coupled",
+    "name": [
+      "Air-Coupled Laser-Ultrasonic System",
+      "空耦激光超声检测系统"
+    ],
+    "status": "collaborative",
+    "overview": [
+      "Non-contact inspection of composites and reflective surface topography measurements.",
+      "对复合材料实施非接触检测，并以反射式测量获取表面形貌。"
+    ],
+    "hardware": [
+      "Pulsed laser, air-coupled ultrasonic receiver, beam scanner or translation stage, and acquisition electronics.",
+      "脉冲激光器、空耦超声接收器、光束扫描器或位移平台及采集电子设备。"
+    ],
+    "contribution": [
+      "Contributed to experimental system development, automation, measurement methodology and validation in composite-inspection studies.",
+      "参与复合材料检测实验系统研发、自动测控、测量方法和实验验证。"
+    ],
+    "control": [
+      "Automated scanning and triggered acquisition capture ultrasonic signals for imaging and analysis.",
+      "自动扫查与触发采集获取用于成像和分析的超声信号。"
+    ],
+    "capabilities": [
+      "Composite microstructure and interfacial defect inspection, broadband measurements and 2.5-D topography of rough surfaces.",
+      "复合材料微观结构与界面缺陷检测、宽带测量及粗糙表面 2.5-D 形貌重建。"
+    ],
+    "results": [
+      "Published composite-interface validation and rough-surface topography measurements.",
+      "已发表复合材料界面缺陷验证与粗糙表面形貌测量成果。"
+    ],
+    "papers": [
+      "broadband-interface",
+      "metal-cfrp",
+      "tim-topography"
+    ],
+    "projects": [
+      "hybrid-composites",
+      "am-topography"
+    ],
+    "figures": [
+      "tim-apparatus"
+    ],
+    "cover": "air-coupled"
+  },
+  {
+    "id": "labview",
+    "name": [
+      "Automated Measurement Software",
+      "自动化实验测控软件"
+    ],
+    "status": "independent",
+    "overview": [
+      "LabVIEW software for repeatable instrument-driven ultrasonic experiments.",
+      "使用 LabVIEW 开发软件，支持重复执行由仪器控制的超声实验。"
+    ],
+    "hardware": [
+      "LabVIEW host, acquisition hardware, laser and motion controllers configured for each experimental setup.",
+      "LabVIEW 主机，以及按实验配置的采集硬件、激光器和运动控制器。"
+    ],
+    "contribution": [
+      "Independently developed instrument communication, multi-device coordination, automated scan workflows and real-time visualisation.",
+      "独立开发仪器通信、多设备协同、自动化扫查流程及实时可视化。"
+    ],
+    "control": [
+      "Configures hardware triggering, sample rate and acquisition window, coordinates timing and captures high-speed time-domain signals.",
+      "配置硬件触发、采样率与采集时窗，协调时序并采集高速时域信号。"
+    ],
+    "capabilities": [
+      "Instrument sequencing, live waveform review and spatial data collection for subsequent A-, B- and C-scan analysis.",
+      "仪器时序控制、实时波形查看及空间数据采集，为后续 A、B、C 扫描分析提供数据。"
+    ],
+    "results": [
+      "The linked publication documents a hardware-synchronised acquisition workflow used in laser cleaning.",
+      "关联论文记录了激光清洗研究使用的硬件同步采集流程。"
+    ],
+    "papers": [
+      "laser-cleaning"
+    ],
+    "projects": [
+      "self-sensing-cleaning"
+    ],
+    "figures": []
+  },
+  {
+    "id": "motion-control",
+    "name": [
+      "Laser Scanning & Precision Motion Control",
+      "激光扫描与精密运动控制"
+    ],
+    "status": "collaborative",
+    "overview": [
+      "Automated spatial scanning for laser-ultrasonic wavefield measurements and process monitoring.",
+      "用于激光超声波场测量与过程监测的自动化空间扫查。"
+    ],
+    "hardware": [
+      "Galvanometer, motorised translation stage, pulsed laser and data-acquisition system.",
+      "振镜、电动位移台、脉冲激光器与数据采集系统。"
+    ],
+    "contribution": [
+      "Developed scan and capture workflows, including trajectory planning and coordination across the laser, motion and acquisition devices.",
+      "开发扫查与采集流程，开展轨迹规划并协调激光、运动及采集设备。"
+    ],
+    "control": [
+      "Galvanometer trajectory control, stage commands, laser triggering and time-domain acquisition.",
+      "振镜轨迹控制、运动平台控制、激光触发与时域采集。"
+    ],
+    "capabilities": [
+      "Repeatable spatial scans for wavefield reconstruction, measurement and process monitoring.",
+      "用于波场重建、计量与过程监测的可重复空间扫查。"
+    ],
+    "results": [
+      "Published laser-cleaning scans illustrate spatial registration of process measurements.",
+      "已发表的激光清洗扫查展示了过程测量的空间配准。"
+    ],
+    "papers": [
+      "laser-cleaning",
+      "sparse-pinn"
+    ],
+    "projects": [
+      "self-sensing-cleaning",
+      "sparse-wavefields"
+    ],
+    "figures": [
+      "cleaning"
+    ]
+  },
+  {
+    "id": "optical",
+    "name": [
+      "Optical Ultrasonic Measurements",
+      "光学超声测量"
+    ],
+    "status": "hands-on",
+    "overview": [
+      "Hands-on experimental experience with laser interferometry and optical ultrasonic detection.",
+      "具有激光干涉与光学超声接收的实验操作经验。"
+    ],
+    "hardware": [
+      "Laboratory laser interferometer and associated optical ultrasonic measurement instruments.",
+      "实验室激光干涉仪及相关光学超声测量仪器。"
+    ],
+    "contribution": [
+      "Operated laboratory instruments for optical ultrasonic measurements.",
+      "操作实验室仪器开展光学超声测量。"
+    ],
+    "control": [
+      "Optical alignment and measurement setup for recording surface displacement or wavefields.",
+      "进行光路调节与测量配置，采集表面位移或波场。"
+    ],
+    "capabilities": [
+      "Surface-displacement measurement and optical observation of ultrasonic wavefields.",
+      "表面位移测量及超声波场的光学观测。"
+    ],
+    "results": null,
+    "papers": [],
+    "projects": [],
+    "figures": []
+  },
+  {
+    "id": "nonlinear",
+    "name": [
+      "Nonlinear Ultrasonic Testing",
+      "非线性超声检测"
+    ],
+    "status": "hands-on",
+    "overview": [
+      "Hands-on experience operating nonlinear ultrasonic instrumentation.",
+      "具有非线性超声仪器系统的实验操作经验。"
+    ],
+    "hardware": [
+      "Laboratory excitation, reception and signal-acquisition equipment.",
+      "实验室超声激励、接收与信号采集设备。"
+    ],
+    "contribution": [
+      "Operated experimental instrumentation and worked with the acquired signals.",
+      "操作实验仪器并处理所采集的信号。"
+    ],
+    "control": [
+      "Configured excitation and reception and acquired time-domain signals for analysis.",
+      "配置激励与接收，采集时域信号用于分析。"
+    ],
+    "capabilities": [
+      "Experimental operation, ultrasonic signal acquisition and analysis.",
+      "系统操作、超声信号采集与分析。"
+    ],
+    "results": null,
+    "papers": [],
+    "projects": [],
+    "figures": []
+  }
+]

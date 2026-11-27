@@ -1,0 +1,34 @@
+[
+  {
+    "paper": "sparse-pinn",
+    "project": "sparse-wavefields",
+    "branch": "main",
+    "title": [
+      "Physics-Informed Wavefield Reconstruction",
+      "物理信息波场重建"
+    ],
+    "description": [
+      "Recover flexural wavefields from sparse, low-SNR laser-ultrasonic measurements. Includes training, evaluation, checkpoints and intact/damaged specimen datasets.",
+      "从稀疏、低信噪比激光超声测量中恢复弯曲波场，含训练、评估、模型权重和完整／损伤试件数据。"
+    ],
+    "stack": "Python · PyTorch · KL-PINN",
+    "license": "MIT",
+    "figure": "pinn"
+  },
+  {
+    "paper": "woven-separation",
+    "project": "propagation-texture",
+    "branch": "main",
+    "title": [
+      "Propagation–Texture Artifact Separation",
+      "传播与织构伪影分离"
+    ],
+    "description": [
+      "Reproduce physics-guided wavefield decomposition and directional time-of-flight analysis. Raw wavefields are available on Zenodo.",
+      "复现物理引导的波场解耦及方向相关到时分析。原始波场可从 Zenodo 获取。"
+    ],
+    "stack": "Python · PyTorch · Zenodo",
+    "license": "MIT",
+    "figure": "woven"
+  }
+]

@@ -1,0 +1,483 @@
+{
+  "themes": [
+    {
+      "id": "laser-emat",
+      "name": [
+        "Laser–EMAT and Non-contact Ultrasonics",
+        "激光–电磁超声与非接触超声检测"
+      ],
+      "status": "ongoing",
+      "background": [
+        "My doctoral research pairs pulsed laser excitation with electromagnetic acoustic reception for single-sided inspection of metallic components.",
+        "博士阶段以脉冲激光激励和电磁超声接收相结合，研究金属构件的单侧非接触检测。"
+      ],
+      "question": [
+        "How do offset transmission–reception geometry, finite receiver aperture and mode conversion affect deep-defect imaging?",
+        "偏置收发几何、有限接收孔径及模式转换如何影响深层缺陷成像？"
+      ],
+      "methods": [
+        "Finite-aperture-aware coherent imaging and longitudinal-to-shear mode conversion. Fibre-integrated near-coaxial probes and hybrid virtual arrays for FMC–TFM are under exploration.",
+        "研究有限孔径相干成像与纵波–横波模式转换，探索光纤集成近共轴探头及用于 FMC–TFM 的混合虚拟阵列。"
+      ],
+      "projects": [
+        "deep-laser-emat",
+        "mode-conversion",
+        "hybrid-fmc-tfm"
+      ]
+    },
+    {
+      "id": "measurement",
+      "name": [
+        "Advanced Laser-Ultrasonic Measurements",
+        "先进激光超声测量方法"
+      ],
+      "status": "published",
+      "background": [
+        "Air-coupled laser ultrasonics supports measurements where contact is impractical, including complex composites and rough additively manufactured surfaces.",
+        "空耦激光超声适用于不便接触的场景，包括复杂复合材料和粗糙增材制造表面。"
+      ],
+      "question": [
+        "Which observables remain reliable under severe solid–air impedance mismatch, woven texture or geometric bias?",
+        "面对严重固–气声阻抗失配、编织纹理及几何偏差，哪些测量特征仍然可靠？"
+      ],
+      "methods": [
+        "Broadband interfacial response, CFRP microstructure characterisation, time-of-flight correction and non-contact 2.5-D surface topography.",
+        "界面宽带响应、CFRP 微观结构表征、到时校正与非接触 2.5-D 表面形貌测量。"
+      ],
+      "projects": [
+        "am-topography",
+        "hybrid-composites",
+        "propagation-texture"
+      ]
+    },
+    {
+      "id": "imaging",
+      "name": [
+        "Computational Imaging and Physics-Informed Learning",
+        "计算成像与物理信息学习"
+      ],
+      "status": "mixed",
+      "background": [
+        "I use ultrasonic wave physics to interpret sparse, noisy measurements and to determine where the evidence supports a defect indication.",
+        "借助超声波动物理解释稀疏、低信噪比测量，并判断哪些信号可以支持缺陷指示。"
+      ],
+      "question": [
+        "How much measurement information is required to recover wavefields, and how should uncertainty in the reconstruction be reported?",
+        "恢复波场需要多少测量信息，又应如何表征重建不确定性？"
+      ],
+      "methods": [
+        "SAFT, TFM, delay-and-sum beamforming, coherence weighting and finite-aperture modelling. Published KL-PINN reconstruction and ongoing Bayesian uncertainty quantification.",
+        "涵盖 SAFT、TFM、延时叠加波束形成、相干加权与有限孔径建模。KL-PINN 重建已发表，贝叶斯不确定性量化在研。"
+      ],
+      "projects": [
+        "sparse-wavefields",
+        "propagation-texture",
+        "hybrid-fmc-tfm"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "name": [
+        "In-Process Inspection for Advanced Manufacturing",
+        "先进制造过程在线检测"
+      ],
+      "status": "mixed",
+      "background": [
+        "I study how to acquire useful ultrasonic measurements during a manufacturing or scanning process.",
+        "研究如何在加工或扫查过程中采集可用于判断的超声信号。"
+      ],
+      "question": [
+        "How can repeatable signals reveal surface-integrity changes and defects under process and motion constraints?",
+        "在工艺与运动约束下，如何用可重复的信号识别表面完整性变化与缺陷？"
+      ],
+      "methods": [
+        "Published self-sensing laser cleaning and abnormality mapping, preliminary single-pulse continuous-motion inspection, and prospective in-situ additive manufacturing and robotic inspection.",
+        "激光清洗自感知与异常映射已发表，单脉冲连续运动检测完成初步实验，增材制造原位监测与机器人检测为后续方向。"
+      ],
+      "projects": [
+        "self-sensing-cleaning",
+        "continuous-motion",
+        "am-topography"
+      ]
+    }
+  ],
+  "figures": {
+    "pinn": {
+      "path": "assets/images/wavefield-reconstruction/pinn-wavefields.jpg",
+      "alt": [
+        "Raw and sparsely sampled ultrasonic measurements, KL-PINN reconstructions, reference wavefields and error maps.",
+        "原始与稀疏采样的超声测量、KL-PINN 重建、参考波场和误差图。"
+      ],
+      "caption": [
+        "Ultrasonics (2026), Fig. 9. Reconstruction of an intact aluminium plate under sparse sampling.",
+        "Ultrasonics（2026）图 9。稀疏采样条件下的完整铝板波场重建。"
+      ],
+      "public": true
+    },
+    "woven": {
+      "path": "assets/images/composites/woven-cfrp.jpg",
+      "alt": [
+        "Structural prior, propagation–texture decomposition and comparisons of measured and decomposed wavefields.",
+        "结构先验、传播–织构解耦及实测波场与分解结果对比。"
+      ],
+      "caption": [
+        "Measurement 279 (2026), Fig. 4. Physics-guided separation of measured woven-CFRP wavefields.",
+        "Measurement 279（2026）图 4。编织 CFRP 实测波场的物理引导分离。"
+      ],
+      "public": true
+    },
+    "air-coupled": {
+      "path": "assets/images/air-coupled-laser-ultrasonics/air-coupled-system.jpg",
+      "alt": [
+        "Schematic of laser excitation, scanner, specimen and air-coupled ultrasonic receiver.",
+        "激光激励、扫描装置、试件和空耦超声接收器示意图。"
+      ],
+      "caption": [
+        "Measurement 290 (2026), Fig. 5. Air-coupled laser-ultrasonic inspection system.",
+        "Measurement 290（2026）图 5。空耦激光超声检测系统。"
+      ],
+      "public": true
+    },
+    "cleaning": {
+      "path": "assets/images/laser-cleaning/laser-cleaning.jpg",
+      "alt": [
+        "Photograph and schematic of the laser-cleaning apparatus and scanning sequence.",
+        "激光清洗装置实物、系统示意和扫描时序。"
+      ],
+      "caption": [
+        "Optics & Laser Technology (2026), Fig. 1. Self-sensing laser-cleaning system and acquisition strategy.",
+        "Optics & Laser Technology（2026）图 1。自感知激光清洗实验平台与采集策略。"
+      ],
+      "public": true
+    },
+    "topography": {
+      "path": "assets/images/additive-manufacturing/tim-topography.png",
+      "alt": [
+        "Amplitude C-scan, time-of-flight depth map, B-scan and reconstructed 2.5-D topography of a rough additively manufactured lattice.",
+        "粗糙增材制造点阵的幅值 C 扫描图、飞行时间深度图、B 扫描与 2.5-D 重建形貌。"
+      ],
+      "caption": [
+        "IEEE Transactions on Instrumentation and Measurement (2026), Fig. 13. Surface topography of a rough additively manufactured lattice.",
+        "IEEE Transactions on Instrumentation and Measurement（2026）图 13。粗糙增材制造点阵的表面形貌。"
+      ],
+      "public": false
+    },
+    "tim-apparatus": {
+      "path": "assets/images/additive-manufacturing/tim-apparatus.png",
+      "alt": [
+        "Photograph of the reflective air-coupled laser-ultrasonic setup, its trigger sequence and a representative received waveform and spectrum.",
+        "反射式空耦激光超声平台实物、触发时序及代表性接收波形和频谱。"
+      ],
+      "caption": [
+        "IEEE Transactions on Instrumentation and Measurement (2026), Fig. 1. Reflective air-coupled measurement setup.",
+        "IEEE Transactions on Instrumentation and Measurement（2026）图 1。反射式空耦测量平台。"
+      ],
+      "public": false
+    }
+  },
+  "projects": [
+    {
+      "id": "deep-laser-emat",
+      "name": [
+        "Single-Sided Non-contact Laser–EMAT Imaging of Deep Submillimetre Defects",
+        "单侧非接触 Laser–EMAT 深层亚毫米缺陷成像"
+      ],
+      "status": "ongoing",
+      "question": [
+        "Can a single-sided non-contact system locate deeply embedded submillimetre defects in thick metallic components?",
+        "能否用单侧非接触系统定位厚壁金属构件中的深层亚毫米缺陷？"
+      ],
+      "motivation": [
+        "Deep targets produce weak echoes, and a finite receiver aperture and offset source–receiver geometry change how those echoes are recorded.",
+        "深层目标回波较弱，有限接收孔径和偏置收发几何会改变回波的记录方式。"
+      ],
+      "method": [
+        "I model the offset source–receiver geometry and receiver aperture, then combine delay-and-sum focusing with coherence weighting.",
+        "对偏置收发几何和接收孔径建模，结合延时叠加聚焦与相干加权。"
+      ],
+      "system": "laser-emat",
+      "contribution": [
+        "I developed and integrated the test platform, modelled the acquisition geometry and implemented finite-aperture-aware coherent imaging.",
+        "搭建并集成实验平台，建立收发几何模型，实现有限孔径相干成像。"
+      ],
+      "findings": [
+        "The study uses separate dense-scanning and coarse-step single-pulse experiments. Each tests a different aspect of localisation and acquisition efficiency.",
+        "研究分别采用密集扫查和粗步距单脉冲实验，分别检验定位表现与采集效率。"
+      ],
+      "papers": [],
+      "figure": null
+    },
+    {
+      "id": "sparse-wavefields",
+      "name": [
+        "Physics-Informed Reconstruction of Sparse Laser-Ultrasonic Wavefields",
+        "物理信息神经网络与稀疏激光超声波场重建"
+      ],
+      "status": "published",
+      "question": [
+        "Can physically constrained learning reconstruct wavefields from sparse, low-SNR measurements?",
+        "能否利用物理约束学习从稀疏、低信噪比测量中恢复波场？"
+      ],
+      "motivation": [
+        "High-density reference scans are time-consuming. Reconstruction from fewer measurements can make wavefield analysis more practical.",
+        "高密度参考扫查耗时较长，降低采样需求有助于波场分析的实际应用。"
+      ],
+      "method": [
+        "A Kirchhoff–Love thin-plate equation constrains a neural network that reconstructs A0-dominated flexural wavefields. PDE residuals provide a scattering-sensitive defect indicator.",
+        "以 Kirchhoff–Love 薄板方程约束神经网络，重建 A0 模态主导的弯曲波场，并以偏微分方程残差构建对散射敏感的缺陷指示。"
+      ],
+      "system": "motion-control",
+      "contribution": [
+        "First-listed author with equal contribution. I contributed to the study design, code, validation, analysis and writing.",
+        "列名第一、共同贡献，参与研究构思、软件开发、验证、分析与撰写。"
+      ],
+      "findings": [
+        "The aluminium-plate experiments used 20–30% spatial sampling and three signal averages, with a 300-average reference for comparison.",
+        "铝板实验使用 20–30% 空间采样和 3 次平均，与 300 次平均的参考扫查比较。"
+      ],
+      "papers": [
+        "sparse-pinn"
+      ],
+      "figure": "pinn"
+    },
+    {
+      "id": "am-topography",
+      "name": [
+        "Non-contact 2.5-D Topography Measurement of Rough Additively Manufactured Surfaces",
+        "粗糙增材制造表面的非接触 2.5-D 形貌测量"
+      ],
+      "status": "published",
+      "question": [
+        "How can air-coupled laser ultrasonics recover local topography on rough additively manufactured surfaces?",
+        "如何利用空耦激光超声重建粗糙增材制造表面的局部形貌？"
+      ],
+      "motivation": [
+        "Geometric bias in time-of-flight maps can obscure the surface relief that needs to be measured.",
+        "到时图中的几何偏差会掩盖待测表面起伏。"
+      ],
+      "method": [
+        "A bias-compensation model combines calibrated time-of-flight residuals and echo amplitude to estimate local surface height or depth.",
+        "通过偏差补偿将标定后的飞行时间残差与回波幅值结合，估计局部表面高度或深度。"
+      ],
+      "system": "air-coupled",
+      "contribution": [
+        "First-listed author of the IEEE Transactions on Instrumentation and Measurement study.",
+        "IEEE Transactions on Instrumentation and Measurement 论文列名第一。"
+      ],
+      "findings": [
+        "In line-scan tests, compensation reduced the spatial standard deviation of time of flight from 5.19 to 0.150 μs. The effective lateral resolution was 65.2 ± 4.3 μm under the tested conditions.",
+        "直线扫查中，补偿将飞行时间的空间标准差从 5.19 μs 降至 0.150 μs。测试条件下有效横向分辨率为 65.2 ± 4.3 μm。"
+      ],
+      "papers": [
+        "tim-topography"
+      ],
+      "figure": "topography"
+    },
+    {
+      "id": "hybrid-composites",
+      "name": [
+        "Non-contact Detection of Interfacial Microdefects in Hybrid Composites",
+        "混合复合材料界面微缺陷的非接触检测"
+      ],
+      "status": "published",
+      "question": [
+        "How can non-contact measurements identify interfacial defects in metal/CFRP and other complex composite structures?",
+        "如何用非接触测量识别金属/CFRP 及其他复杂复合结构中的界面缺陷？"
+      ],
+      "motivation": [
+        "Severe solid–air impedance mismatch makes weak interfacial signals especially difficult to interpret.",
+        "严重固–气声阻抗失配使弱界面信号难以判读。"
+      ],
+      "method": [
+        "Air-coupled laser-ultrasonic experiments combine imaging, multiphysics modelling and bandwidth-dependent observables. Published studies include metal/CFRP, braided CFRP and compliant interfacial defects.",
+        "结合空耦激光超声成像、多物理场建模及频带相关表征，已发表研究涵盖金属/CFRP、编织 CFRP 和柔性界面缺陷。"
+      ],
+      "system": "air-coupled",
+      "contribution": [
+        "I contributed to interfacial inspection and led the broadband measurement study, including methodology, software and validation.",
+        "参与界面检测研究，并在宽带测量研究中承担方法设计、软件开发和实验验证。"
+      ],
+      "findings": [
+        "BRI and DRDS distinguish broadband radiative enhancement from resonance-dominated responses in tested planar, ultra-thin and curved specimens.",
+        "BRI 和 DRDS 在所测试的平面、超薄和曲面试件中区分宽带辐射增强与共振主导响应。"
+      ],
+      "papers": [
+        "metal-cfrp",
+        "broadband-interface",
+        "braided-cfrp",
+        "gfrp"
+      ],
+      "figure": "air-coupled"
+    },
+    {
+      "id": "propagation-texture",
+      "name": [
+        "Decoupling Propagation and Texture-Induced Artifacts in Laser Ultrasonics",
+        "激光超声传播波场与织构诱导伪影解耦"
+      ],
+      "status": "published",
+      "question": [
+        "Can propagating wavefronts be separated from texture-locked artefacts in measurements of woven CFRP?",
+        "能否将编织 CFRP 测量中的传播波前与跟随织构的伪影分开？"
+      ],
+      "motivation": [
+        "Woven microstructure can obscure arrival times and bias directional velocity estimates.",
+        "编织微结构会干扰到时提取，并使方向波速估计产生偏差。"
+      ],
+      "method": [
+        "A structural prior derived from measured wavefields guides the separation of the propagating and texture-associated components.",
+        "以实测波场提取的结构先验，引导传播分量与织构相关分量的分离。"
+      ],
+      "system": "motion-control",
+      "contribution": [
+        "I contributed the concept, methodology, implementation, data curation and original draft.",
+        "负责研究构思、方法设计、程序实现、数据整理与初稿撰写。"
+      ],
+      "findings": [
+        "For the tested single-ply twill specimen, mean tracking RMSE was 0.194 mm and mean ridge linearity was 0.987.",
+        "在测试的单层斜纹试件中，平均跟踪 RMSE 为 0.194 mm，平均脊线线性度为 0.987。"
+      ],
+      "papers": [
+        "woven-separation"
+      ],
+      "figure": "woven"
+    },
+    {
+      "id": "self-sensing-cleaning",
+      "name": [
+        "Process-Integrated Self-Sensing Laser Cleaning and Ultrasonic Monitoring",
+        "激光清洗过程集成超声自感知监测"
+      ],
+      "status": "published",
+      "question": [
+        "Can ultrasonic signals recorded during pulsed laser cleaning indicate surface integrity and locate abnormal regions?",
+        "脉冲激光清洗过程中获得的超声信号能否用于表面完整性指示与异常定位？"
+      ],
+      "motivation": [
+        "Integrated acquisition can support process monitoring while reducing reliance on a separate inspection step.",
+        "过程集成采集可支持加工监测，减少对单独检测步骤的依赖。"
+      ],
+      "method": [
+        "Hardware-synchronised non-contact acquisition is combined with spatial registration, ultrasonic descriptors, XGBoost–SHAP analysis and baseline-referenced mapping.",
+        "将硬件同步非接触采集与空间配准、超声特征、XGBoost–SHAP 分析和基线参照映射相结合。"
+      ],
+      "system": "motion-control",
+      "contribution": [
+        "First-listed author with equal contribution. I contributed to the method, software, experiments, data curation and writing.",
+        "列名第一、共同贡献，参与方法设计、软件开发、实验、数据整理与撰写。"
+      ],
+      "findings": [
+        "Spatially registered measurements supported surface-integrity indication and anomaly mapping under the tested Q235-steel conditions.",
+        "在所测试的 Q235 钢工况下，通过空间配准测量实现表面完整性指示与异常映射。"
+      ],
+      "papers": [
+        "laser-cleaning"
+      ],
+      "figure": "cleaning"
+    },
+    {
+      "id": "mode-conversion",
+      "name": [
+        "Finite-Aperture Effects and Mode-Converted Wave Imaging in Laser–EMAT",
+        "Laser–EMAT 有限孔径效应与模式转换波成像"
+      ],
+      "status": "ongoing",
+      "question": [
+        "How does finite EMAT reception aperture affect longitudinal-to-shear imaging and defect positioning?",
+        "有限 EMAT 接收孔径如何影响纵波–横波成像与缺陷定位？"
+      ],
+      "motivation": [
+        "Aperture effects and mode-converted arrivals are important when interpreting signals in thick metallic specimens.",
+        "在厚金属试件中解释超声信号时，需要考虑有限孔径效应与模式转换到达。"
+      ],
+      "method": [
+        "I study coordinate-separated localisation and L-to-S propagation in additively manufactured 316L stainless steel.",
+        "研究增材制造 316L 不锈钢中的坐标分离定位与纵–横波模式转换。"
+      ],
+      "system": "laser-emat",
+      "contribution": [
+        "My work focuses on the finite-aperture model, mode-converted imaging and coordinate-separated estimation.",
+        "负责有限孔径建模、模式转换波成像与坐标分离估计。"
+      ],
+      "findings": [
+        "The current experimental scope is additively manufactured 316L. The method provides a basis for future studies of high-temperature non-contact inspection.",
+        "当前实验范围为增材制造 316L，为后续高温非接触检测研究提供方法基础。"
+      ],
+      "papers": [],
+      "figure": null
+    },
+    {
+      "id": "continuous-motion",
+      "name": [
+        "Single-Pulse Continuous-Motion Ultrasonic Inspection",
+        "单脉冲连续运动超声检测"
+      ],
+      "status": "preliminary",
+      "question": [
+        "How can a moving specimen be scanned with one A-scan per laser pulse while retaining useful localisation information?",
+        "如何在试件连续运动条件下实现每个激光脉冲采集一条 A-scan，并保留有用的定位信息？"
+      ],
+      "motivation": [
+        "Stop-and-acquire scanning limits throughput. Continuous motion requires careful position assignment and motion-aware processing.",
+        "停走式采集限制检测效率。连续运动条件下需要合理分配采集位置并考虑运动对成像的影响。"
+      ],
+      "method": [
+        "The stage drives the specimen at constant speed. The laser fires at a fixed repetition rate and each pulse yields one A-scan. The scan proceeds without stopping or pulse averaging.",
+        "运动平台带动试件匀速运动，激光以固定重复频率发射，每脉冲采集一条 A-scan，扫查过程中不停顿、不平均。"
+      ],
+      "system": "laser-emat",
+      "contribution": [
+        "I configured stage motion, acquisition and the subsequent imaging workflow for preliminary experiments.",
+        "负责初步实验的运动平台、采集配置及后续成像流程。"
+      ],
+      "findings": [
+        "Preliminary acquisition experiments are complete. Position assignment and motion effects remain part of the imaging study.",
+        "已完成初步采集实验，位置分配与运动影响仍是成像研究问题。"
+      ],
+      "papers": [],
+      "figure": null
+    },
+    {
+      "id": "hybrid-fmc-tfm",
+      "name": [
+        "Hybrid Laser–EMAT Full-Matrix Capture and Total Focusing Imaging",
+        "混合 Laser–EMAT 全矩阵采集与全聚焦成像"
+      ],
+      "status": "future",
+      "question": [
+        "How can virtual transmitter–receiver arrays combine complementary ultrasonic modes for more reliable interpretation?",
+        "如何用虚拟收发阵列融合不同超声模式的互补信息，提高判读可靠性？"
+      ],
+      "motivation": [
+        "LL, LS, SL and SS modes can provide different views of uncertain regions and may help reduce missed or false indications.",
+        "LL、LS、SL 和 SS 模式可为单一模式下的不确定区域提供互补信息，有望减少漏检与误判。"
+      ],
+      "method": [
+        "The planned approach combines virtual arrays, full-matrix capture, TFM, finite-aperture modelling and geometry-aware multimodal evidence integration.",
+        "拟结合虚拟阵列、全矩阵采集、全聚焦法、有限孔径建模和考虑收发几何的多模态证据融合。"
+      ],
+      "system": "laser-emat",
+      "contribution": [
+        "I am exploring the imaging formulation and the probe and array geometry required to test it.",
+        "正在探索成像模型，以及用于实验验证的探头与阵列几何。"
+      ],
+      "findings": null,
+      "papers": [],
+      "figure": null
+    }
+  ],
+  "extensions": [
+    {
+      "id": "bayesian-pinn",
+      "parent": "sparse-wavefields",
+      "name": [
+        "Heteroscedastic Bayesian PINNs and Predictive Uncertainty",
+        "异方差贝叶斯 PINN 与预测不确定性"
+      ],
+      "text": [
+        "This ongoing study examines spatially varying measurement noise and predictive uncertainty in ultra-sparse wavefield reconstruction.",
+        "该在研工作研究超稀疏波场重建中的空间变化测量噪声与预测不确定性。"
+      ]
+    }
+  ]
+}
